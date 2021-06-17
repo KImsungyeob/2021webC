@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-from func 
+
 import db
 @app.route('/')
 def taxi():
@@ -74,5 +74,5 @@ def method():
 # 위와같이 접속 하면 안녕 나는 네이버야~
 # 라는 글자를 나타나게 하시오
 
-if __name__ == '__main__':
-    app.run(debug=True)
+#if __name__ == '__main__':
+#    app.run(debug=True)
